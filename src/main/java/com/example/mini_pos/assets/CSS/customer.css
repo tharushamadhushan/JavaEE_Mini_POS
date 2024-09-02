@@ -1,0 +1,119 @@
+.customer {
+    position: relative;
+    height: 100vh;
+    margin-left: 100px;
+    margin-right: 100px;
+    /* background: lightgreen;*/
+}
+
+.customer > section:first-child {
+
+    height: 80vh;
+    position: absolute;
+    /*background: lightpink;*/
+    width: 42vw;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background: linear-gradient(to bottom, #99ff66 0%, #66ccff 100%);
+}
+
+.customer > section:first-child > p {
+
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    margin: 0;
+
+}
+
+#customer_details > div > input {
+    width: 500px;
+}
+
+#customer_details {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+
+}
+
+#customer_buttons {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 350px;
+    margin: auto;
+
+}
+
+
+.customer > section:nth-child(2) {
+
+    height: 80vh;
+    position: absolute;
+    /*background: lightpink;*/
+    right: 0;
+    width: 42vw;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(3, 14, 26, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+.customer > section:nth-child(2) > table {
+
+    position: absolute;
+    width: 500px;
+    left: 0;
+    right: 0;
+    top: 20px;
+    margin: auto;
+
+}
+
+.customer > section:nth-child(2) > div {
+
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+    right: 0;
+    top: 0;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+
+}
+#save_customer{
+    background-color: green;
+    color: white;
+    border-color: green;
+}
+#update_customer{
+    background-color: darkgoldenrod;
+    color: white;
+    border-color: darkgoldenrod;
+}
+#delete_customer{
+    background-color: red;
+    color: white;
+    border-color: red;
+}
+#customer_reset{
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+#customer_buttons>div>button:hover{
+    font-weight: bold;
+
+}

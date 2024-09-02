@@ -1,0 +1,15 @@
+.order_details {
+    position: relative;
+    height: 100vh;
+    margin-left: 140px;
+    margin-right: 140px;
+    /*box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;*/
+    /*    background: lightblue;*/
+
+
+}
+
+.card:hover {
+    background-color: #e6e6e6;
+    color: black;
+}

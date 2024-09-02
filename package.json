@@ -1,0 +1,7 @@
+{
+  "name": "pos_mini_project",
+  "version": "1.0.0",
+  "devDependencies": {
+    "mysql": "^2.18.1"
+  }
+}

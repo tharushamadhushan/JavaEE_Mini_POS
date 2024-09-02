@@ -1,0 +1,171 @@
+.order {
+    position: relative;
+    height: 100vh;
+    margin-left: 100px;
+    margin-right: 100px;
+    /*background: lightgreen;*/
+}
+.order {
+    position: relative;
+    height: 100vh;
+    margin-left: 100px;
+    margin-right: 100px;
+    /* background: lightgreen; */
+}
+
+.order > section:first-child {
+
+    height: 90vh;
+    position: absolute;
+    /*background: lightpink;*/
+    width: 42vw;
+    top: 60px;
+    bottom: 0;
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background: linear-gradient(to bottom, #00ffcc 0%, #333300 100%);
+
+}
+
+
+.order > section:nth-child(2) {
+
+    height: 90vh;
+    position: absolute;
+    /*background: lightpink;*/
+    right: 0;
+    width: 42vw;
+    top: 60px;
+    bottom: 0;
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(3, 14, 26, 0.35) 0px -2px 6px 0px inset;
+
+
+}
+.order> section:nth-child(2) > div {
+
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+    right: 0;
+    top: 0;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+
+}
+
+
+#order_form {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 15px;
+    margin: auto;
+
+
+}
+
+#order_form > form > div > input {
+    width: 400px;
+
+}
+#order_form > form > div>select[id="customer_id"] {
+    width: 110px;
+
+}
+#order_form > form > div > input[id="customer_name"] {
+    width: 270px;
+    position: relative;
+    top: -68px;
+    left: 130px;
+}
+#order_form > form > div > label[for="customer_name"] {
+    width: 200px;
+    position: relative;
+    top: -66px;
+    left: 130px;
+}
+
+#order_details > div > input {
+    width: 125px;
+}
+#order_details{
+    width: fit-content;
+    top: 400px;
+    margin: 0;
+}
+#add_cart {
+    position: relative;
+    bottom: 5px;
+    left:310px;
+    color: black;
+    border-color: black;
+    background-color: orange;
+}
+#add_cart:hover{
+    background-color: #ffc107;
+    border-color: black;
+    font-weight: bold;
+}
+#remove {
+    position: relative;
+    bottom: -40px;
+    left:222px;
+    background-color: red;
+    color: white;
+    border-color: black;
+}
+#remove:hover{
+    font-weight: bold;
+}
+
+.order > section:nth-child(2) > table {
+
+    position: absolute;
+    width: 500px;
+    left: 0;
+    right: 0;
+    top: 20px;
+    margin: auto;
+
+}
+
+.order > section:nth-child(2) > section {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+
+.order > section:nth-child(2) > section > div {
+    position: relative;
+    bottom: 30px;
+    margin: auto;
+
+}
+
+.order > section:nth-child(2) > section > button {
+    width: 200px;
+    height: calc(1.5em + 0.75rem + 2px);
+    position: relative;
+    top: -14px;
+    border-color: black;
+    color: black;
+    background-color: limegreen;
+}
+.order > section:nth-child(2) > section > button:hover{
+    background-color: lime;
+    font-weight: bold;
+}
+
+#order_form>form>div:nth-child(3){
+    position: absolute;
+}#order_form>form>div:nth-child(4){
+    position: relative;
+}

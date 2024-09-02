@@ -1,0 +1,166 @@
+body{
+    width: 100vw;
+    height: 50vw;
+    /*overflow: hidden;*/
+    position: relative;
+}
+ul{
+    width: 100vw;
+    height: fit-content;
+}
+#sitelogo{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 10px;
+}
+#logohead{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    left: 60px;
+    font-size: 22px;
+}
+#logosub{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    left: 60px;
+    top: 23px;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+}
+ul>li>img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    display: flex;
+    top: 11px;
+}
+ul>li>a{
+    margin-left: 5px;
+}
+ul>li{
+    margin-right: 25px;
+    height: 40px;
+}
+.maintitle{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    font-style: inherit;
+    font-size: 70px;
+    padding: 0;
+    margin: 0;
+    left: 10vw;
+    top: 1vw;
+}
+.subtitle{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    font-style: inherit;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    top: 1vw;
+    left: 20vw;
+}
+.img-fluid{
+    width: 101vw;
+    height: 29vw;
+    position: relative;
+    top: 45px;
+    left: 21%;
+}
+div>img{
+    width: 170px;
+    height: 120px;
+    position: absolute;
+    left: 38px;
+    top: 10px;
+}
+div>h4{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    font-size: 25px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 24px;
+}
+a>div{
+    background: linear-gradient(180deg, rgb(255, 255, 255, 100%),rgb(255, 255, 255, 0%));
+    border-radius: 40px;
+    width: 250px;
+    height: 160px;
+    position: relative;
+    /*display: flex;*/
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.mainsec{
+    width: 100vw;
+    height: content-box;
+    position: absolute;
+    background: linear-gradient(180deg, rgb(0, 151, 236, 100%),rgb(255, 255, 255, 100%));
+    display: flex;
+}
+.leftsec{
+    width: 70vw;
+    height: content-box;
+    position: relative;
+}
+/*.rightsec{*/
+/*    width: 30vw;*/
+/*    height: content-box;*/
+/*    position: relative;*/
+/*}*/
+.rightsec {
+    width: 30vw;
+    height: content-box;
+    position: absolute;
+    top: -1vh;
+    left: 159vh;
+}
+.active{
+    position: relative;
+    top: -10px;
+}
+.collapse{
+    position: relative;
+    width: 100vh;
+}
+.navbar>.container-fluid{
+    width: 100vw;
+}
+.row{
+    /*width: fit-content;*/
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 25px;
+}
+.container{
+    position: relative;
+    padding-top: 32px;
+}
+.container-fluid>a{
+    left: 40px;
+    position: relative;
+    padding-right: 3%;
+    font-weight: 700;
+}
+.nav-link{
+    top: -19px;
+}
+.form-label{
+    font-weight: bold;
+}
